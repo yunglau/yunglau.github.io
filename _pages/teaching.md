@@ -1,12 +1,24 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+`COMP 302 - Programming Languages and Paradigms`
 
-Organize your courses by years, topics, or universities, however you like!
+<strong>Role: </strong> Teaching Assistant
+
+<strong>Description: </strong> Programming language design issues and programming paradigms. Binding and scoping, parameter passing, lambda abstraction, data abstraction, type checking. Functional and logic programming.
+
+`COMP 424 - Artificial Intelligence`
+
+<strong>Role: </strong> Teaching Assistant
+
+<strong>Description: </strong> Introduction to search methods. Knowledge representation using logic and probability. Planning and decision making under uncertainty. Introduction to machine learning.
+
+`Mentor - AI4Good Lab`
+
+`Mentor - Woman In AI`
