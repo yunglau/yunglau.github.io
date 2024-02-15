@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a graduate student at McGill University and Mila, where I work on Natural Language Processing (NLP) and Reinforcement Learning (RL) research under the supervision of Dr. Doina Precup. 
+I am a graduate student at McGill University and Mila, where I work on the intersection between Generation Flow Networks (GFlowNet) and Reinforcement Learning (RL) research under the supervision of Dr. Doina Precup. 
 
 I am passionate about Machine Learning (ML). Specfically, developing and implementing complex mathematical models that can be used for real-life ML applications. 
 
