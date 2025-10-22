@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Project | Elaine Lau</title>
+<meta name="author" content="Elaine Lau"/>
+<meta name="description" content="Project details."/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+<style>
+  .thumb{aspect-ratio:16/9;border-radius:16px;display:flex;align-items:center;justify-content:center;font-weight:800;
+         font-size:1.1rem;letter-spacing:.2px;color:#0e0f14;box-shadow:0 10px 25px rgba(0,0,0,.08);margin-bottom:.5rem;
+         background:linear-gradient(135deg,#f6f7fb,#e9ecff)}
+  .thumb.c2{background-image:linear-gradient(135deg,#ffe6f1,#f3ecff)}
+  /* Dark mode support using data-theme attribute */
+  html[data-theme="dark"] .thumb{color:#e6e8f0;background:linear-gradient(135deg,#0f1220,#1b1f3a)}
+  @supports not (aspect-ratio: 1){
+    .thumb{position:relative;height:0;padding-bottom:56.25%}
+    .thumb::after{content:attr(data-label);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:800}
+  }
+</style>
+</head>
+<body class="fixed-top-nav sticky-bottom-footer">
+<header>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Elaine&nbsp;</span>Lau</a>
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item"><a class="nav-link" href="/">about</a></li>
+          <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+          <li class="nav-item active"><a class="nav-link" href="/projects/">Projects<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/teaching/">Teaching</a></li>
+          <li class="toggle-container"><button id="light-toggle" title="Change theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="container mt-5">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">Project Title</h1>
+      <p class="post-description">Short one-liner.
+        <span class="badge badge-pill badge-light ml-2">RL</span>
+        <span class="badge badge-pill badge-light">Agents</span>
+      </p>
+    </header>
+
+    <article>
+      <p class="lead">Problem → method → result. State the core contribution in 1–2 sentences.</p>
+
+      <div class="row">
+        <div class="col-md-7 mt-3">
+          <div class="thumb c2" data-label="Preview">Project Preview</div>
+        </div>
+        <div class="col-md-5 mt-3">
+          <div class="cardish p-3 h-100">
+            <h3 class="h6 mb-2">At a glance</h3>
+            <ul class="mb-2">
+              <li>Dataset / environment: …</li>
+              <li>Model / method: …</li>
+              <li>Key metric: …</li>
+            </ul>
+            <div>
+              <a class="btn btn-sm btn-brand mr-2" href="#">Code</a>
+              <a class="btn btn-sm btn-outline-secondary" href="#">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="h5 mt-4">Overview</h2>
+      <p>Explain the approach with a diagram or bullets. Keep paragraphs short.</p>
+
+      <h2 class="h5 mt-3">Results</h2>
+      <p>One chart or table with a sentence on takeaway.</p>
+
+      <h2 class="h5 mt-3">Links</h2>
+      <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Paper / arXiv</a></li>
+        <li><a href="#">Demo (if any)</a></li>
+      </ul>
+    </article>
+  </div>
+</section>
+</main>
+
+<footer class="sticky-bottom mt-5">
+  <div class="container">© Copyright 2024 Elaine Lau.</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

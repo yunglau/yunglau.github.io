@@ -1,0 +1,13 @@
+# --- Add this block to your existing _config.yml ---
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+      nav: true
